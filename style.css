@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header_section {
+  height: 650px;
+  background-image: url("./Images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.half_width {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  padding: 2%;
+}
+
+.header_section .half_width .items {
+  margin: 30% 0 0 30%;
+}
+.header_section .half_width img {
+  padding-top: 9%;
+}
+.header_start {
+  padding: 20px 0;
+  font-size: 35px;
+  font-weight: 400;
+}
+.header_name {
+  padding: 0 0 20px 0;
+  font-size: 43px;
+  font-weight: bolder;
+  color: orangered;
+}
+.p_tag {
+  padding: 20px 0 40px 0;
+  text-align: justify;
+  width: 500px;
+  margin-bottom: 10px;
+}
+.anchor_tag {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius: 7px;
+  background-image: linear-gradient(45deg, orange, orangered, red);
+}
+img {
+  height: 90%;
+  width: 90%;
+}
+
+/* Header Section End */
+
+/* Biography Section Start's Here */
+.biography_section {
+  background-image: url("./Images/biography-bg.png");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.biography_section .half_width {
+  margin-top: 5%;
+}
+
+.biography_items {
+  margin-top: 25%;
+}
+
+.latest_work_section {
+  margin-top: 5%;
+  background-image: url("./Images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 550px;
+  text-align: center;
+  background-position: right;
+}
+.latest_work {
+  font-size: 40px;
+  margin-bottom: 5%;
+}
+.latest_work_section img {
+  width: 300px;
+  height: 190px;
+}
+
+/* Biography Section End's Here */
+
+/* Footer Section Start's Here */
+.footer_section {
+  text-align: center;
+  background-image: url("./Images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 550px;
+}
+.footer_section h1 {
+  font-size: 35px;
+}
+
+.footer_items {
+  margin-top: 50px;
+}
+.footer_items .first_pTag {
+  padding: 5px;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.footer_items .second_pTag {
+  margin: auto;
+  width: 380px;
+  margin-bottom: 50px;
+}
+.footer_card {
+  width: 480px;
+  margin: auto;
+  background-color: orangered;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+
+.comment {
+  padding: 10px;
+  color: white;
+}
+.gmail {
+  padding: 10px;
+  color: white;
+}
